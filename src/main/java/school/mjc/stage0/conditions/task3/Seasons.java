@@ -8,9 +8,10 @@ public class Seasons {
             System.out.println("Summer");
         } else if (month >= 9 && month < 12) {
             System.out.println("Autumn");
-        } else {
+        } else if (month == 1 || month == 2 || month == 12) {
             System.out.println("Winter");
+        } else {
+            System.out.println("wrong number!");
         }
-
     }
 }
